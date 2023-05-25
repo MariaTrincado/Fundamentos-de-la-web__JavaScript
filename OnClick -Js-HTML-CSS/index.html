@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojonary</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <div class="buscar">
+                    <input type="text" placeholder="Search" />
+                </div>
+                
+                <li><button id="btn1" class="btn1" onclick="cambiarLogin()">Login</button></li>
+            </ul>
+        </div>
+        <div class="pantalla">
+            <div class="izq">
+                <div class="definicion">
+                    <div class="def">
+                        <div class="nombre">ninja</div>
+                        <h3 class="clasif">noun</h3>
+                        <h5 class="plural">Plural: ninjas</h5>
+                        <button class="btn2"onclick="mostrarAlerta()"> 13 Likes </button>
+                    </div>
+                    <div class="texto">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="definicion" id="seg">
+                    <div class="def">
+                        <div class="nombre">ninja</div>
+                        <h3 class="clasif">noun</h3>
+                        <h5 class="plural">Plural: ninjas</h5>
+                        <button class="btn2"onclick="mostrarAlerta()"> 37 Likes </button>
+                    </div>
+                    <div class="texto">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="der">
+                <div class="AddTarjetas">
+                    <h2 id="titulo">Dojonary is defined by YOU</h2>
+                    <button class="btn4" onclick="eliminarContenido(this)">Add Definition</button>
+                </div>   
+            <div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
