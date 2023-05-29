@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Likes</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="nav">Network</div>
+        <h1>Your Feed</h1>
+        <div class="container">
+            <div class="izq">
+                <div class="Perfil">
+                    <img src="./css/perfil.png" alt="foto de perfil">
+                    <a href="#" class="add">Add an avatar</a>
+                    <div class="nombre">James Doe</div>
+                </div>
+            </div>
+            <div class="der">
+                <div class="tarjetaLikes">
+                    <div class="row">
+                        <div class="nombre">Neil M</div>
+                        <div class="conteo"><span id="b1"> 9</span> like(s)</div>
+                        <button class="btn" onclick="aumentarLike1()"> Like</button>
+                    </div>
+                    <div class="estado">
+                        <p>I just set up this new discord bot, let me know what you all think <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="tarjetaLikes">
+                    <div class="row">
+                        <div class="nombre">Nichole K</div>
+                        <div class="conteo"><span id="b2"> 12</span> like(s)</div>
+                        <button class="btn" onclick="aumentarLike2()"> Like</button>
+                    </div>
+                    <div class="estado">
+                        <p>Just finishied my <a href="#">new comic</a>, check it out. </p>
+                    </div>
+                </div>
+                <div class="tarjetaLikes">
+                    <div class="row">
+                        <div class="nombre">Jim R</div>
+                        <div class="conteo"><span id="b3"> 9</span> like(s)</div>
+                        <button class="btn" onclick="aumentarLike3()"> Like</button>
+                    </div>
+                    <div class="estado">
+                        <p> I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
